@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Adil Javed</h1>
+
+          <p class="title">SOC Analyst</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:adil.official.CYS@gmail.com" class="contact-link">adil.official.CYS@gmail.com</a>
+            </div>
+
+          </li>
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Attock, Punjab, Pakistan</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <head>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        </head>
+        
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://medium.com/@AdiljavedOffical" class="social-link">
+              <i class="fa-brands fa-medium"></i>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/adiljaved15" class="social-link">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/AdilJaved-Glitch" class="social-link">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+        </ul>
+        
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+      
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a SOC Analyst with a strong foundation in cybersecurity, threat intelligence, and network defense. 
+            My expertise lies in proactive security measures, leveraging tools like Splunk, Wazuh, and QRadar SIEM to detect and mitigate threats.
+          </p>
+
+          <p>
+            With a Bachelor's in Cybersecurity from Air University and certifications from Google, Cisco, and LetsDefend, I continuously refine my skills to stay ahead of evolving cyber threats.
+            My experience spans incident response, malware analysis, OSINT, and risk assessment.
+          </p>
+        </section>
+        <!--
+          - service
+        -->
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">​Security Operations Center (SOC) Analysis</h4>
+
+                <p class="service-item-text">
+                  Actively monitoring and responding to security incidents to protect organizational assets. Utilizing advanced SIEM tools like Splunk and Wazuh to detect, analyze, and mitigate threats in real-time.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Open-Source Intelligence (OSINT) Research</h4>
+
+                <p class="service-item-text">
+                  Conducting in-depth OSINT investigations to gather actionable intelligence on potential threats. Leveraging tools such as Shodan and VirusTotal to assess vulnerabilities and enhance security postures.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Malware Analysis and Threat Mitigation</h4>
+
+                <p class="service-item-text">
+                  Performing comprehensive static and dynamic malware analyses using platforms like ANY.RUN and PEStudio. Developing mitigation strategies to neutralize malicious software and prevent future infections.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">​Continuous Learning and Certification</h4>
+
+                <p class="service-item-text">
+                  Pursuing advanced certifications, including the CompTIA SY0-701 Security+ from Professor Messer SOC Path from HTB, SOC Analyst Learning Path and Malware Analysis Skill Path from LetsDefend, to stay abreast of evolving cybersecurity trends and technologies.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+        <!--
+          - clients
+        -->
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Certifications</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://app.letsdefend.io/certificate/show/8f886cec-614d-41b7-8387-77c185f0ac6c">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://app.letsdefend.io/certificate/show/5e079db7-e53c-4bcb-9309-da652fe2ef99">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://coursera.org/share/7227659214b38d8a5f64592846e3a2f0">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://coursera.org/share/85cbd1fce8ae669da90f32ee3b4dccf4">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+             <li class="clients-item">
+              <a href="https://coursera.org/share/2cb9f4a3e74857d04790f1745ab63acb">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://coursera.org/share/d4fc96b54c3203733cbf8239352d059b">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="https://www.udemy.com/certificate/UC-8d26c8c7-0b7d-471f-90a5-407924902f3f/">
+                <img src="./assets/images/logo-7-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+      <!--
+        - #RESUME
+      -->
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+      
+        <section class="timeline">
+      
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+      
+            <h3 class="h3">Education</h3>
+          </div>
+      
+          <ol class="timeline-list">
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Air University, Kamra, Pakistan</h4>
+              <span>Sep 2021 — Sep 2025</span>
+              <p class="timeline-text">
+                Bachelor's in Cyber Security (GPA: 3.1). Focused on network security, incident response, and risk management.
+              </p>
+            </li>
+      
+          </ol>
+      
+        </section>
+      
+        <section class="timeline">
+      
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+      
+            <h3 class="h3">Experience</h3>
+          </div>
+      
+          <ol class="timeline-list">
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Cyber Defense & Network Security - THINCS-CORP</h4>
+              <span>Aug 2024 — Nov 2024</span>
+              <p class="timeline-text">
+                - Conducted OSINT research on firewall configurations and security implementations.<br>
+                - Developed a risk register for threats such as RCE, firewall misconfigurations, and DDoS attacks.<br>
+                - Installed and configured IBM QRadar SIEM for enhanced threat detection.<br>
+                - Implemented USB insertion detection using Wazuh SIEM for endpoint security.<br>
+                - Performed malware analysis using VirusTotal, ANY.RUN, PEStudio, and Process Monitor.
+              </p>
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Network Engineer - Pakistan Aeronautical Complex Kamra</h4>
+              <span>Jan 2024 — Aug 2024</span>
+              <p class="timeline-text">
+                - Configured SIEM (Wazuh) alerts to monitor drive data modifications.<br>
+                - Gained in-depth knowledge of OSI layers, IP assignment, subnetting, VLANs, and networking protocols.<br>
+                - Hands-on experience in configuring Cisco switches for efficient network setups.<br>
+                - Diagnosed and resolved network issues using tools like tracert, ping, and netstat.
+              </p>
+            </li>
+      
+          </ol>
+      
+        </section>
+      
+        <section class="skill">
+      
+          <h3 class="h3 skills-title">My skills</h3>
+      
+          <ul class="skills-list content-card">
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Security Information & Event Management (SIEM)</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Threat Hunting & Incident Response</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Network Security & Firewall Management</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Malware Analysis & Digital Forensics</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python and Powershell</h5>
+                <data value="30">30%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+            </li>
+      
+          </ul>
+      
+        </section>
+      
+      </article>
+      
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/AdilJavedOfficial/email-ioc-extractor">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Email-IOC-Extractor</h3>
+
+                <p class="project-category">Python</p>
+
+              </a>
+            </li>
+
+            <!-- <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+      <!--
+        - #BLOG
+      -->
+      <article class="blog" data-page="blog">
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+      
+        <section class="blog-posts">
+          <ul class="blog-posts-list" id="medium-posts">
+            <!-- Medium posts will be injected here -->
+          </ul>
+        </section>
+      </article>
+      
+      <style>
+        /* Blog Section Styling */
+        .blog-section {
+          margin-bottom: 2rem;
+        }
+      
+        .blog-section h3 {
+          font-size: 1.5rem;
+          margin-bottom: 1rem;
+          color: #6e6b6b;
+        }
+      
+        /* Blog Post List */
+        .blog-posts-list {
+    	    list-style: none;
+    	    padding: 0;
+        }
+      
+        /* Blog Post Item */
+        .blog-post-item {
+	        margin-bottom: 1.5rem;
+          box-shadow: 0 4px 8px rgba(109, 108, 108, 0.1);
+          transition: transform 0.2s ease-in-out;
+        }
+      
+        .blog-post-item:hover {
+          transform: scale(1.02);
+        }
+      
+        /* Blog Banner */
+        .blog-banner-box {
+          width: 100%;
+          border-radius: 10px;
+          overflow: hidden;
+        }
+      
+  	.blog-banner-box img {
+    	  width: 100%;
+    	  height: auto;
+    	  object-fit: cover;
+    	  border-radius: 10px;
+  	}
+        .blog-item-title {
+          font-size: 1.2rem;
+          color: #757474;
+          margin: 10px 0 5px;
+        }
+        .blog-post-date {
+    font-size: 0.9rem;
+    color: #757474;
+  }
+      </style>
+      
+      <script>
+        async function fetchMediumPosts() {
+          const rssUrl = 'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@AdiljavedOffical';
+      
+          try {
+            const response = await fetch(rssUrl);
+            const data = await response.json();
+            const posts = data.items;
+            const postsList = document.getElementById('medium-posts');
+      
+            posts.forEach(post => {
+              // Extract image (fallback if thumbnail is missing)
+              let imageUrl = post.thumbnail;
+              if (!imageUrl) {
+                const tempDiv = document.createElement('div');
+                tempDiv.innerHTML = post.content;
+                const imgTag = tempDiv.querySelector('img');
+                if (imgTag) imageUrl = imgTag.src;
+              }
+      
+              // Extract Published Date (Full Date: Day, Month, Year)
+              const publishDate = new Date(post.pubDate);
+              const fullDate = publishDate.toLocaleDateString('en-US', {
+                day: 'numeric',
+                month: 'long',
+                year: 'numeric'
+              });
+      
+              // Create Blog Post Item
+              const listItem = document.createElement('li');
+              listItem.className = 'blog-post-item';
+              listItem.innerHTML = `
+                <a href="${post.link}" target="_blank" rel="noopener noreferrer">
+                  <figure class="blog-banner-box">
+                    <img src="${imageUrl}" alt="${post.title}" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <h3 class="blog-item-title">${post.title}</h3>
+                    <p class="blog-post-date">${fullDate}</p>
+                  </div>
+                </a>
+              `;
+      
+              postsList.appendChild(listItem);
+            });
+            
+          } catch (error) {
+            console.error('Error fetching Medium posts:', error);
+          }
+        }
+      
+        fetchMediumPosts();
+      </script>
+      
+      <!--
+        - #CONTACT
+      -->
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53010.41602780031!2d72.37130844238!3d33.85999912191682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df1eae07152e93%3A0xb2f04d8bab53bf00!2sKamra%20Kalan%2C%20Pakistan!5e0!3m2!1sen!2s!4v1743258346366!5m2!1sen!2s"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
+            <input type="hidden" name="access_key" value="7b763ef3-c3f3-4d45-93f9-e90829c75f0e">
+            <div class="input-wrapper">
+              <input type="text" name="name" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
